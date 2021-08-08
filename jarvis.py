@@ -1,5 +1,5 @@
-#i have installed few modules such as speech recognition,datetime,pyttsx3(text to speech conversion library #in python)
-#wikipedia,webbrowser
+#i have installed few modules such as speech recognition,datetime,pyttsx3(text to speech conversion library in python)
+#wikipedia,webbrowser,etc.
 
 import pyttsx3
 import datetime
@@ -7,7 +7,7 @@ import speech_recognition as sr
 import wikipedia
 import webbrowser
 import os
-import smtplib #to send mail from gmail also we have to chnge the setting of setting of gmail to "lesser secure app"
+import smtplib #to send mail from gmail using this program we have to change the setting of gmail to "lesser secure app".
 
 
 engine=pyttsx3.init("sapi5") ##sapi5 is windows inbuilt voice
@@ -60,7 +60,7 @@ def sendEmail(to, content):
 
 if __name__  ==  "__main__":
     wishMe()
-    while True:#to run th program infinite times
+    while True:#to run the program infinite times
     #if 1:#to run the program once
 
         query = takeCommand().lower()
